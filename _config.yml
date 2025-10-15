@@ -2,12 +2,12 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: Data Systems Lab # the website title (if blank, full name will be used instead)
-first_name: 
-middle_name: 
-last_name: 
+title: CVMP Lab # the website title (if blank, full name will be used instead)
+first_name:
+middle_name:
+last_name:
 contact_note: >
-description: > 
+description: >
 footer_text: >
 keywords: Research, Data-Systems, Databases, Data-Processing, Systems-Research # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
@@ -86,7 +86,7 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # -----------------------------------------------------------------------------
 
 blog_name: Data Systems Blog # blog_name will be displayed in your blog page
-blog_description: 
+blog_description:
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 
@@ -181,6 +181,8 @@ exclude:
   - _pages/projects.md
   - _pages/teaching.md
   - _pages/repositories.md
+  - _pages/github.md
+  - _pages/contact_us.md
 keep_files:
   - CNAME
   - .nojekyll

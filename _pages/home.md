@@ -2,8 +2,7 @@
 layout: home
 title: Home
 permalink: /
-header_image: lab-group-photo.jpg
-# subtitle: Make computer go brrrrrr
+header_image: lab-group-photo-cvmp.jpg
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -23,4 +22,4 @@ people:
 ---
 
 
-The Data Systems Lab explores applications of AI to build next-gen data systems that are efficient and easy to use.
+The Computer Vision and Machine Perception Lab at the University of Technology in Nuremberg focuses on 3D computer vision and lifelong learning. The emphasis lies on building machine perception algorithms that are not rigid but able to adapt to their environment and evolve. The lab connects to surrounding interdisciplinary fields, such as fundamentals, reinforcement learning, natural language processing, and privacy. The lab is headed by Prof. Dr. Eddy Ilg, who is known for his contributions to computer vision on optical flow and his work on AR technology at Meta.

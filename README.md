@@ -18,7 +18,7 @@ Our `watzmann` server has everything set up for local development. The following
 2. The (shared) repository is located at `/space/websites/utndatasystems.github.io`.
 3. VSCode will ask you to "reopen the project in a devcontainer". Click "No" (this would require Docker being set up on Watzmann, which is not the case).
 4. Run `bundle exec jekyll serve` in the terminal.
-5. VSCode will ask you to setup port forwarding. Click "Open in Browser". 
+5. VSCode will ask you to setup port forwarding. Click "Open in Browser".
 
 You can use this setup for local development. When you push the changes to `main`, the website will be re-deployed automatically.
 
