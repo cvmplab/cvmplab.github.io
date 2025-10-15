@@ -1,0 +1,147 @@
+
+
+@article{stoian2025stringfingerprints,
+  author       = {Mihail Stoian and Johannes Thürauf and Andreas Zimmerer and Alexander van Renen and Andreas Kipf},
+  title        = {Instance-Optimized String Fingerprints},
+  journal      = {{VLDB} 2025 Workshop: Applied AI for Database Systems and Applications ({AIDB} 2025)},
+  year         = {2025},
+  bibtex_show  = {true},
+  preview      = {stringfingerprints.jpg},
+  pdf          = {https://arxiv.org/pdf/2507.10391},
+  code         = {https://github.com/utndatasystems/string-fingerprints},
+}
+
+@inproceedings{krid2025redbench,
+  author       = {Skander Krid and Mihail Stoian and Andreas Kipf},
+  title        = {Redbench: A Benchmark Reflecting Real Workloads},
+  booktitle    = {International Workshop on Exploiting Artificial Intelligence Techniques for Data Management (aiDM '25), June 22--27, 2025, Berlin, Germany},
+  publisher    = {{ACM}},
+  year         = {2025},
+  bibtex_show  = {true},
+  preview      = {redbench.jpg},
+  pdf          = {https://arxiv.org/pdf/2506.12488},
+  code         = {https://github.com/utndatasystems/redbench},
+}
+
+@article{stoian2025parachute,
+  author       = {Mihail Stoian and Andreas Zimmerer and Skander Krid and Amadou Latyr Ngom and Jialin Ding and Tim Kraska and Andreas Kipf},
+  title        = {Parachute: Single-Pass Bi-Directional Information Passing},
+  journal      = {Proc. {VLDB} Endow.},
+  year         = {2025},
+  bibtex_show  = {true},
+  preview      = {parachute.jpg},
+  pdf          = {https://arxiv.org/pdf/2506.13670},
+  code         = {https://github.com/utndatasystems/parachute},
+}
+
+@inproceedings{zimmerer2025pruning,
+  title        = {Pruning in Snowflake: Working Smarter, Not Harder},
+  author       = {Zimmerer, Andreas and Dam, Damien and Kossmann, Jan and Waack, Juliane and Oukid, Ismail and Kipf, Andreas},
+  booktitle    = {Companion of the 2025 International Conference on Management of Data ({SIGMOD}-Companion '25), June 22--27, 2025, Berlin, Germany},
+  publisher    = {{ACM}},
+  year         = {2025},
+  isbn         = {9798400715648},
+  pdf          = {https://dl.acm.org/doi/pdf/10.1145/3722212.3724447},
+  blog         = {https://snowflakepruning.github.io/},
+  bibtex_show  = {true},
+  preview      = {snowflake-pruning.jpg},
+}
+
+@inproceedings{stoian2024lightweight,
+  title        = {Lightweight Correlation-Aware Table Compression},
+  author       = {Stoian, Mihail and van Renen, Alexander and Kobiolka, Jan and Kuo, Ping-Lin and Grabocka, Josif and Kipf, Andreas},
+  booktitle    = {NeurIPS 2024 Third Table Representation Learning Workshop},
+  year         = {2024},
+  url          = {https://openreview.net/forum?id=z7eIn3aShi},
+  slides       = {https://openreview.net/attachment?id=z7eIn3aShi&name=slides},
+  video        = {https://www.youtube.com/watch?v=B0bUTNIJ1O8},
+  code         = {https://github.com/utndatasystems/virtual},
+  pdf          = {https://arxiv.org/pdf/2410.14066v3},
+  preview      = {lightweight-correlation-compression.jpg},
+  bibtex_show  = {true},
+}
+
+@inproceedings{stoian2025virtual,
+  title        = {Virtual: Compressing Data Lake Files},
+  author       = {Mihail Stoian and
+                  Alexander van Renen and
+                  Jan Kobiolka and
+                  Ping{-}Lin Kuo and
+                  Andreas Zimmerer and
+                  Josif Grabocka and
+                  Andreas Kipf},
+  editor       = {Alkis Simitsis and
+                  Bettina Kemme and
+                  Anna Queralt and
+                  Oscar Romero and
+                  Petar Jovanovic},
+  booktitle    = {Proceedings 28th International Conference on Extending Database Technology,
+                  {EDBT} 2025, Barcelona, Spain, March 25-28, 2025},
+  pages        = {1066--1069},
+  publisher    = {OpenProceedings.org},
+  year         = {2025},
+  pdf          = {https://openproceedings.org/2025/conf/edbt/paper-298.pdf},
+  bibtex_show  = {true},
+  website      = {https://utndatasystems.github.io/virtual/},
+  award_name   = {Best Demo Award},
+  award        = {This demo paper received the **Best Demo Award** at EDBT 2025.},
+  code         = {https://github.com/utndatasystems/virtual},
+  preview      = {virtual.jpg},
+  selected     = {true},
+}
+
+@article{stoian2024dpconv,
+  author       = {Mihail Stoian and
+                  Andreas Kipf},
+  title        = {DPconv: Super-Polynomially Faster Join Ordering},
+  journal      = {Proc. {ACM} Manag. Data},
+  volume       = {2},
+  number       = {6},
+  pages        = {234:1--234:26},
+  year         = {2024},
+  biburl       = {https://dblp.org/rec/journals/pacmmod/StoianK24.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org},
+  bibtex_show  = {true},
+  pdf          = {https://dl.acm.org/doi/pdf/10.1145/3698809},
+  code         = {https://github.com/utndatasystems/DPconv},
+  award_name   = {Honorable Mention},
+  award        = {This demo paper received a **Honorable Mention** at SIGMOD 2025.},
+  preview      = {dpconv.jpg},
+  selected     = {true},
+}
+
+@article{vanrenen2024dataloom,
+  author       = {Alexander van Renen and
+                  Mihail Stoian and
+                  Andreas Kipf},
+  title        = {DataLoom: Simplifying Data Loading with LLMs},
+  journal      = {Proc. {VLDB} Endow.},
+  volume       = {17},
+  number       = {12},
+  pages        = {4449--4452},
+  year         = {2024},
+  pdf          = {https://www.vldb.org/pvldb/vol17/p4449-renen.pdf},
+  biburl       = {https://dblp.org/rec/journals/pvldb/RenenSK24.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org},
+  bibtex_show  = {true},
+  code         = {https://github.com/utndatasystems/data-loom-vldb-demo},
+  video        = {https://github.com/utndatasystems/data-loom-vldb-demo/blob/main/DataLoom.mp4},
+  preview      = {dataloom.jpg},
+}
+
+@inproceedings{liu2024corra,
+  author       = {Hanwen Liu and
+                  Mihail Stoian and
+                  Alexander van Renen and
+                  Andreas Kipf},
+  title        = {Corra: Correlation-Aware Column Compression},
+  booktitle    = {Proceedings of Workshops at the 50th International Conference on Very
+                  Large Data Bases, {VLDB} 2024, Guangzhou, China, August 26-30, 2024},
+  publisher    = {VLDB.org},
+  year         = {2024},
+  pdf          = {https://vldb.org/workshops/2024/proceedings/CloudDB/clouddb-2.pdf},
+  biburl       = {https://dblp.org/rec/conf/vldb/LiuSRK24.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org},
+  bibtex_show  = {true},
+  preview      = {corra.jpg},
+}

@@ -1,53 +1,50 @@
-- name: Andreas Kipf
-  image: andreas-kipf.jpg
-  url: https://scholar.google.de/citations?user=y3IdRusAAAAJ&hl=de&oi=ao
-  title: Head of Data Systems Lab
-- name: Alex van Renen
-  image: alexander-van-renen.jpg
-  url: https://dblp.org/pid/219/9679.html
-  title: Postdoctoral Researcher
-- name: Mihail Stoian
-  image: mihail-stoian.jpg
-  url: https://stoianmihail.github.io/
-  title: Doctoral Researcher
-- name: Andreas Zimmerer
-  image: andi-zimmerer.jpg
-  url: https://andi-zimmerer.com/
-  title: Doctoral Researcher
-- name: Varun Pandey
-  image: varun-pandey.jpg
-  url: https://www.linkedin.com/in/varpande/
-  title: Affiliated Researcher
-- name: Luca Heller
-  image: luca-heller.jpg
-  url: https://www.linkedin.com/in/luca-sophia-heller-b8909b250/
-  title: Student Researcher
-- name: Ping-Lin Kuo
-  image: ping-lin-kuo.jpg
-  url: https://www.linkedin.com/in/ping-lin-billy-kuo/
-  title: Student Researcher
-- name: Moritz Rengert
-  image: moritz-rengert.jpg
-  url: https://www.linkedin.com/in/moritz-rengert-8baaa1203/
-  title: Student Researcher
-- name: Carl-David Reese
-  image: carl-david-reese.jpg
-  url: https://www.linkedin.com/in/carl-david-reese/
-  title: Student Researcher
-- name: Andrea Smith
-  image: andrea-smith.jpg
-  url: https://www.linkedin.com/in/andrea-smith-b93a79ba/
-  title: Administrative Assistant
-- name: Corinna Dannewitz
-  image: corinna-dannewitz.jpg
-  url: https://www.linkedin.com/in/corinna-dannewitz-b258a731a/
-  title: Administrative Assistant
+- name: Prof. Dr. Eddy Ilg
+  image: eddy-ilg.jpg
+  url: https://scholar.google.com/citations?user=MYvSvGsAAAAJ&hl=de
+  title: Professor and Lead of CVMP Lab
 
-- name: Sara Sherif
-  url: https://www.linkedin.com/in/sara-sherif-daoud/
-  title: Guest Researcher
-  alumni: true
-- name: Skander Krid
-  url: https://www.linkedin.com/in/skrid/
-  title: Student Researcher
-  alumni: true
+- name: Raza Yunus
+  image: raza-yunus.jpg
+  url: https://scholar.google.com/citations?user=j0GdrVcAAAAJ&hl=en&oi=ao
+  title: Doctoral Researcher
+- name: Tom Fischer
+  image: tom-fischer.jpg
+  url: https://scholar.google.com/citations?hl=en&user=idj3nF4AAAAJ
+  title: Doctoral Researcher
+- name: Cameron Braunstein
+  image: cameron-braunstein.jpg
+  url: https://scholar.google.com/citations?hl=en&user=DlAEsAsAAAAJ
+  title: Doctoral Researcher
+- name: Noor Ahmed
+  image: noor-ahmed.jpg
+  url: https://scholar.google.com/citations?hl=de&user=u28N8xwAAAAJ
+  title: Doctoral Researcher
+- name: Xiaojie Zhang
+  image: xiaojie-zhang.jpg
+  url: https://scholar.google.com/citations?hl=de&user=EQJz1aUAAAAJ
+  title: Doctoral Researcher
+- name: Agniv Sharma
+  image: agniv-sharma.jpg
+  url: https://scholar.google.com/citations?hl=de&user=dQScRJsAAAAJ
+  title: Doctoral Researcher
+# - name: Carl-David Reese
+#   image: carl-david-reese.jpg
+#   url: https://www.linkedin.com/in/carl-david-reese/
+#   title: Student Researcher
+# - name: Andrea Smith
+#   image: andrea-smith.jpg
+#   url: https://www.linkedin.com/in/andrea-smith-b93a79ba/
+#   title: Administrative Assistant
+# - name: Corinna Dannewitz
+#   image: corinna-dannewitz.jpg
+#   url: https://www.linkedin.com/in/corinna-dannewitz-b258a731a/
+#   title: Administrative Assistant
+
+# - name: Sara Sherif
+#   url: https://www.linkedin.com/in/sara-sherif-daoud/
+#   title: Guest Researcher
+#   alumni: true
+# - name: Skander Krid
+#   url: https://www.linkedin.com/in/skrid/
+#   title: Student Researcher
+#   alumni: true

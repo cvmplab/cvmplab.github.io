@@ -85,7 +85,7 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: Data Systems Blog # blog_name will be displayed in your blog page
+blog_name: CVMP Blog # blog_name will be displayed in your blog page
 blog_description:
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
@@ -142,6 +142,10 @@ collections:
     defaults:
       layout: post
     output: true
+  open_positions:
+    defaults:
+      layout: post
+    output: true
   projects:
     output: true
 
@@ -182,7 +186,8 @@ exclude:
   - _pages/teaching.md
   - _pages/repositories.md
   - _pages/github.md
-  - _pages/contact_us.md
+  - _pages/news.md
+  # - _pages/contact_us.md
 keep_files:
   - CNAME
   - .nojekyll
