@@ -24,7 +24,9 @@
             {{- site.middle_name -}}
           {% endif %}
           {% if site.last_name %}
-            {{- site.last_name -}}
+            <span style="color: var(--global-theme-color);">
+              {{- site.last_name -}}
+            </span>
           {% endif %}
         {% else %}
           {{- site.title -}}
