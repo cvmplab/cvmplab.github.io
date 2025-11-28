@@ -2,17 +2,17 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-# title: CVMP Lab # the website title (if blank, full name will be used instead)
-first_name:
+title: 'blank' # the website title (if blank, full name will be used instead)
+first_name: CVMP
 middle_name:
-last_name:
+last_name: Lab
 contact_note: >
 description: >
 footer_text: >
-keywords: Research, Data-Systems, Databases, Data-Processing, Systems-Research # add your own keywords or leave empty
+keywords: Research, Computer Vision, Machine Perception, Deep Learning, Foundation Models, 3D Computer Vision # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
-logo: cvmp-logo.png
+icon: cvmp-favicon-v2.png # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+# logo: cvmp-logo.png
 # logo_url: https://www.utn.de/
 
 url: https://cvmplab.github.io/ # the base hostname & protocol for your site
@@ -187,6 +187,7 @@ exclude:
   - _pages/repositories.md
   - _pages/github.md
   - _pages/contact_us.md
+  # - _pages/eddy.md
   # - _pages/news.md
 keep_files:
   - CNAME

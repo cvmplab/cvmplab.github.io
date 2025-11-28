@@ -953,6 +953,34 @@ html.transition *:after {
   }
 }
 
+.person-profile {
+  &::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
+.person-photo {
+  float: left;
+  max-width: 180px;
+  margin: 0 1.5rem 1rem 0;
+
+  .photo {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .person-photo {
+    float: none;
+    margin: 0 auto 1rem;
+    text-align: center;
+  }
+}
+
 progress {
   /* Positioning */
   position: fixed;

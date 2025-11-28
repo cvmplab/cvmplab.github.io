@@ -1,0 +1,88 @@
+{%- assign listings = site.open_positions | reverse -%}
+<div class="open_positions_v2">
+  {%- if listings != blank -%}
+    <div class="table-responsive">
+      <table class="table table-sm table-borderless">
+        {%- for item in listings -%}
+          {%- assign collapse_id = "open-position-v2-" | append: item.slug | slugify -%}
+          <tr>
+            <th scope="row" style="width: 20%; vertical-align: middle; text-align: center;">
+              <button
+                class="btn btn-primary"
+                type="button"
+                data-toggle="collapse"
+                data-target="#{{ collapse_id }}"
+                aria-expanded="false"
+                aria-controls="{{ collapse_id }}"
+              >
+                More details
+              </button>
+            </th>
+            <td style="vertical-align: middle;">
+              {%- if item.inline -%}
+                {{ item.job_title | remove: '<p>' | remove: '</p>' | emojify }}
+              {%- else -%}
+                <a class="news-title" href="{{ item.url | relative_url }}">{{ item.title }}</a>
+              {%- endif -%}
+            </td>
+          </tr>
+          <tr>
+            <td colspan="2" class="p-0">
+              <div id="{{ collapse_id }}" class="collapse">
+                <div class="card card-body">
+                  {{ item.content }}
+                  <hr />
+                  <form
+                    action="{{ include.form_action | default: 'https://formspree.io/f/your-endpoint' }}"
+                    method="POST"
+                  >
+                    <input type="hidden" name="job_title" value="{{ item.job_title }}" />
+                    <div class="form-group">
+                      <label for="name-{{ collapse_id }}">Name</label>
+                      <input
+                        id="name-{{ collapse_id }}"
+                        name="name"
+                        type="text"
+                        class="form-control"
+                        placeholder="Your full name"
+                        required
+                      />
+                    </div>
+                    <div class="form-group">
+                      <label for="email-{{ collapse_id }}">Email</label>
+                      <input
+                        id="email-{{ collapse_id }}"
+                        name="email"
+                        type="email"
+                        class="form-control"
+                        placeholder="your@email.com"
+                        required
+                      />
+                    </div>
+                    <div class="form-group">
+                      <label for="message-{{ collapse_id }}">Message</label>
+                      <textarea
+                        id="message-{{ collapse_id }}"
+                        name="message"
+                        class="form-control"
+                        rows="4"
+                        placeholder="Short introduction and links (CV, Google Scholar, GitHub, etc.)"
+                        required
+                      ></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-outline-primary btn-sm">Send application</button>
+                  </form>
+                  <p class="mt-2 mb-0 text-muted" style="font-size: 0.9rem;">
+                    Set the `form_action` include parameter to your provider endpoint (e.g., Formspree) to have submissions delivered to your chosen email.
+                  </p>
+                </div>
+              </div>
+            </td>
+          </tr>
+        {%- endfor -%}
+      </table>
+    </div>
+  {%- else -%}
+    <p>No open positions currently</p>
+  {%- endif -%}
+</div>
