@@ -6,4 +6,4 @@ related_posts: false
 toc: false
 ---
 
-We have a Post-Doc position at our lab. Find more details here:
+We have a Post-Doc position at our lab. Find more details [here]({{ "/open_positions/" | relative_url }})

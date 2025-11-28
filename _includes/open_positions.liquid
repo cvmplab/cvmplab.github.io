@@ -18,7 +18,7 @@
           <tr>
             <td style="vertical-align: middle;">
               {% if item.inline %}
-                {{ item.job_title | remove: '<p>' | remove: '</p>' | emojify }}
+                {{ item.title | remove: '<p>' | remove: '</p>' | emojify }}
               {% else %}
                 <a class="news-title" href="{{ item.url | relative_url }}">{{ item.title }}</a>
               {% endif %}
