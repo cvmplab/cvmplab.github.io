@@ -9,7 +9,21 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-research",
+  },{id: "nav-news",
+          title: "News",
+          description: "News Updates from Computer Vision and Machine Perception lab at UTN.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/news/";
+          },
+        },{id: "nav-team",
+          title: "Team",
+          description: "Team at CVMP-Lab @ UTN.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/team/";
+          },
+        },{id: "nav-research",
           title: "Research",
           description: "Areas of Research that the CVMP Lab is currently working on.",
           section: "Navigation",
@@ -37,18 +51,11 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/open_positions/";
           },
-        },{id: "nav-contact-us",
-          title: "Contact Us",
-          description: "Following are some ways you can reach us",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/contact_us/";
-          },
         },{id: "news-a-warm-welcome-to-agniv-sharma-who-joins-the-cvmp-lab-as-a-doctoral-researcher",
           title: 'A warm welcome to Agniv Sharma, who joins the CVMP Lab as a...',
           description: "",
-          section: "News",},{id: "news-we-have-a-new-post-doc-position-at-our-lab-available-find-more-details-here",
-          title: 'We have a new Post-Doc position at our lab available. Find more details...',
+          section: "News",},{id: "news-we-have-a-post-doc-position-at-our-lab-find-more-details-here",
+          title: 'We have a Post-Doc position at our lab. Find more details here:',
           description: "",
           section: "News",},{id: "open_positions-",
           title: '',
@@ -74,20 +81,6 @@ ninja.data = [{
           section: "Projects",handler: () => {
               window.location.href = "/projects/virtual/";
             },},{
-        id: 'social-email',
-        title: 'email',
-        section: 'Socials',
-        handler: () => {
-          window.open("mailto:%64%61%74%61-%73%79%73%74%65%6D%73@%75%74%6E.%64%65", "_blank");
-        },
-      },{
-        id: 'social-github',
-        title: 'GitHub',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://github.com/utndatasystems", "_blank");
-        },
-      },{
         id: 'social-bluesky',
         title: 'Bluesky',
         section: 'Socials',
