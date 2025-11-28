@@ -19,6 +19,7 @@ latest_posts:
 
 people:
   enabled: true
+  alumni: false
 ---
 
 

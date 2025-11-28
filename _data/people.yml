@@ -2,14 +2,18 @@
   image: eddy-ilg.jpg
   url: https://scholar.google.com/citations?user=MYvSvGsAAAAJ&hl=de
   title: Professor and Lead of CVMP Lab
-
+  description:
 - name: Raza Yunus
   image: raza-yunus.jpg
   url: https://scholar.google.com/citations?user=j0GdrVcAAAAJ&hl=en&oi=ao
   title: Doctoral Researcher
 - name: Tom Fischer
   image: tom-fischer.jpg
-  url: https://scholar.google.com/citations?hl=en&user=idj3nF4AAAAJ
+  url: https://www.fischer-tom.github.io
+  title: Doctoral Researcher
+- name: Jonas Kaelble
+  image: jona-kaelble.jpg
+  url: https://scholar.google.com/citations?hl=en&user=DlAEsAsAAAAJ
   title: Doctoral Researcher
 - name: Cameron Braunstein
   image: cameron-braunstein.jpg
@@ -17,34 +21,21 @@
   title: Doctoral Researcher
 - name: Noor Ahmed
   image: noor-ahmed.jpg
-  url: https://scholar.google.com/citations?hl=de&user=u28N8xwAAAAJ
+  url: https://www.noorahmedds.github.io/
   title: Doctoral Researcher
 - name: Xiaojie Zhang
-  image: xiaojie-zhang.jpg
+  image: xiaojie-zhang.jpeg
   url: https://scholar.google.com/citations?hl=de&user=EQJz1aUAAAAJ
   title: Doctoral Researcher
 - name: Agniv Sharma
-  image: agniv-sharma.jpg
+  image: agniv-sharma.jpeg
   url: https://scholar.google.com/citations?hl=de&user=dQScRJsAAAAJ
   title: Doctoral Researcher
-# - name: Carl-David Reese
-#   image: carl-david-reese.jpg
-#   url: https://www.linkedin.com/in/carl-david-reese/
-#   title: Student Researcher
-# - name: Andrea Smith
-#   image: andrea-smith.jpg
-#   url: https://www.linkedin.com/in/andrea-smith-b93a79ba/
-#   title: Administrative Assistant
-# - name: Corinna Dannewitz
-#   image: corinna-dannewitz.jpg
-#   url: https://www.linkedin.com/in/corinna-dannewitz-b258a731a/
-#   title: Administrative Assistant
-
-# - name: Sara Sherif
-#   url: https://www.linkedin.com/in/sara-sherif-daoud/
-#   title: Guest Researcher
-#   alumni: true
-# - name: Skander Krid
-#   url: https://www.linkedin.com/in/skrid/
-#   title: Student Researcher
-#   alumni: true
+- name: Tim Leonard
+  image: tim-leonard.jpg
+  url: https://scholar.google.com/citations?hl=de&user=dQScRJsAAAAJ
+  title: Master-Thesis Student
+- name: Kengo Kaneda
+  image: kengo-kaneda.jpg
+  url: https://scholar.google.com/citations?hl=de&user=dQScRJsAAAAJ
+  title: HIWI Student

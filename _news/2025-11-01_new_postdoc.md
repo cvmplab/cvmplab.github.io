@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-We have a new Post-Doc position at our lab available. Find more details here:
+We have a Post-Doc position at our lab. Find more details here:

@@ -4,7 +4,7 @@ title: Open Positions
 permalink: /open_positions/
 description: Positions available at our Lab Currently
 nav: true
-nav_order: 6
+nav_order: 7
 display_categories: []
 horizontal: false
 ---

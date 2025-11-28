@@ -2,7 +2,7 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: CVMP Lab # the website title (if blank, full name will be used instead)
+# title: CVMP Lab # the website title (if blank, full name will be used instead)
 first_name:
 middle_name:
 last_name:
@@ -12,10 +12,10 @@ footer_text: >
 keywords: Research, Data-Systems, Databases, Data-Processing, Systems-Research # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
-logo: utn_with_text.png
-logo_url: https://www.utn.de/
+logo: cvmp-logo.png
+# logo_url: https://www.utn.de/
 
-url: https://utndatasystems.github.io # the base hostname & protocol for your site
+url: https://cvmplab.github.io/ # the base hostname & protocol for your site
 baseurl:  # the subpath of your site, e.g. /blog/. Leave blank for root
 last_updated: true # set to true if you want to display last updated in the footer
 impressum_path: /impressum.html # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
@@ -186,8 +186,8 @@ exclude:
   - _pages/teaching.md
   - _pages/repositories.md
   - _pages/github.md
-  - _pages/news.md
-  # - _pages/contact_us.md
+  - _pages/contact_us.md
+  # - _pages/news.md
 keep_files:
   - CNAME
   - .nojekyll

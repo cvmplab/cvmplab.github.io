@@ -4,7 +4,7 @@ permalink: /publications/
 title: Publications
 description: All publications from the Data Systems Lab.
 nav: true
-nav_order: 2
+nav_order: 5
 ---
 
 <!-- _pages/publications.md -->

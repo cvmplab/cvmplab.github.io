@@ -25,13 +25,15 @@
 
 
 <!-- Alumni List -->
-<h3 class="mt-4 mb-2">Alumni</h3>
-<ul class="text-start">
-  {% for profile in site.data.people %}
-    {% if profile.alumni == true or profile.tags contains 'alumni' %}
-      <li>
-        <strong><a href="{{ profile.url }}" target="_blank">{{ profile.name }}</a></strong>{% if profile.title %}, {{ profile.title }}{% endif %}
-      </li>
-    {% endif %}
-  {% endfor %}
+{% if include.alumni == true %}
+  <h3 class="mt-4 mb-2">Alumni</h3>
+  <ul class="text-start">
+    {% for profile in site.data.people %}
+      {% if profile.alumni == true or profile.tags contains 'alumni' %}
+        <li>
+          <strong><a href="{{ profile.url }}" target="_blank">{{ profile.name }}</a></strong>{% if profile.title %}, {{ profile.title }}{% endif %}
+        </li>
+      {% endif %}
+    {% endfor %}
+{% endif %}
 </ul>

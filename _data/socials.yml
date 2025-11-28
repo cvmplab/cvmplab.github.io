@@ -2,8 +2,8 @@
 # the commented lines are the default social media links supported by the template
 # the socials will be displayed in the order they are defined here
 
-email: data-systems@utn.de # your email address
-github_username: utndatasystems # your GitHub user name
+# email: # your email address
+# github_username: utndatasystems # your GitHub user name
 # acm_id: # your dl.acm.org/profile/id
 # blogger_url: # your blogger URL
 bluesky_url: https://bsky.app/profile/utndatasystems.bsky.social # your bluesky URL

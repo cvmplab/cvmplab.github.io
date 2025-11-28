@@ -28,4 +28,13 @@ layout: default
   {% if site.giscus and page.giscus_comments %}
     {% include giscus.liquid %}
   {% endif %}
+
+  {% if page.announcements and page.announcements.enabled %}
+    {% include news.liquid limit=true %}
+  {% endif %}
+
+  <!-- People -->
+    {% if page.people and page.people.enabled %}
+      {% include people.liquid alumni=page.people.alumni%}
+    {% endif %}
 </div>
