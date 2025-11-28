@@ -60,27 +60,7 @@ ninja.data = [{
           section: "News",},{id: "open_positions-",
           title: '',
           description: "",
-          section: "Open_positions",},{id: "projects-dataloom",
-          title: 'DataLoom',
-          description: "Using the Power of AI to Democratize Data Science through Agentic Data Pipelines",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/dataloom/";
-            },},{id: "projects-seehaus",
-          title: 'Seehaus',
-          description: "A Database With Waves",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/seehaus/";
-            },},{id: "projects-spectra",
-          title: 'Spectra',
-          description: "Taking LLM-Based Semantic SQL Operators to the Limit With Our Own Multi-Modal Data Engine",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/spectra/";
-            },},{id: "projects-virtual",
-          title: 'Virtual',
-          description: "Compressing Data Lake Storage Files Using Functional Inter-Column Dependencies",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/virtual/";
-            },},{
+          section: "Open_positions",},{
         id: 'social-bluesky',
         title: 'Bluesky',
         section: 'Socials',
