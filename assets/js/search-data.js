@@ -61,11 +61,11 @@ ninja.data = [{
           title: 'We are looking for a postdoctoral researcher who wants to build the next...',
           description: "",
           section: "Open_positions",},{
-        id: 'social-bluesky',
-        title: 'Bluesky',
+        id: 'social-github',
+        title: 'GitHub',
         section: 'Socials',
         handler: () => {
-          window.open("https://bsky.app/profile/utndatasystems.bsky.social", "_blank");
+          window.open("https://github.com/cvmplab", "_blank");
         },
       },{
         id: 'social-rss',
@@ -73,5 +73,12 @@ ninja.data = [{
         section: 'Socials',
         handler: () => {
           window.open("/feed.xml", "_blank");
+        },
+      },{
+        id: 'social-work',
+        title: 'Work',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://www.utn.de", "_blank");
         },
       },];
