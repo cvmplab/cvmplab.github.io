@@ -23,4 +23,4 @@ people:
 ---
 
 
-The Computer Vision and Machine Perception Lab at the University of Technology in Nuremberg focuses on 3D computer vision and lifelong learning. The emphasis lies on building machine perception algorithms that are not rigid but able to adapt to their environment and evolve. The lab connects to surrounding interdisciplinary fields, such as fundamentals, reinforcement learning, natural language processing, and privacy. The lab is headed by Prof. Dr. Eddy Ilg, who is known for his contributions to computer vision on optical flow and his work on AR technology at Meta.
+The **Computer Vision and Machine Perception Lab** at the University of Technology in Nuremberg focuses on 3D computer vision and lifelong learning. The emphasis lies on building machine perception algorithms that are not rigid but able to adapt to their environment and evolve. The lab connects to surrounding interdisciplinary fields, such as fundamentals, reinforcement learning, natural language processing, and privacy. The lab is headed by Prof. Dr. Eddy Ilg, who is known for his contributions to computer vision on optical flow and his work on AR technology at Meta.

@@ -3,10 +3,10 @@
 # the socials will be displayed in the order they are defined here
 
 # email: # your email address
-# github_username: utndatasystems # your GitHub user name
+github_username: cvmplab # your GitHub user name
 # acm_id: # your dl.acm.org/profile/id
 # blogger_url: # your blogger URL
-bluesky_url: https://bsky.app/profile/utndatasystems.bsky.social # your bluesky URL
+# bluesky_url: https://bsky.app/profile/utndatasystems.bsky.social # your bluesky URL
 # dblp_url: # your DBLP profile url
 # discord_id: # your discord id (18-digit unique numerical identifier)
 # facebook_id: # your facebook id
@@ -41,7 +41,7 @@ rss_icon: true # set to true to show the RSS icon
 # whatsapp_number: # your WhatsApp number (full phone number in international format. Omit any zeroes, brackets, or dashes when adding the phone number in international format.)
 # wikidata_id: # your wikidata id
 # wikipedia_id: # your wikipedia id (Case sensitive)
-# work_url: # work page URL
+work_url: https://www.utn.de # work page URL
 # x_username: # your X handle
 # youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
 # zotero_username: # your zotero username
