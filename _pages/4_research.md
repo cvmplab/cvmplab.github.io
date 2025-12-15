@@ -15,12 +15,10 @@ The lab is headed by [**Prof. Dr. Eddy Ilg**](/eddy-ilg/), known for seminal con
 
 Our research aims to advance core AI capabilities with impact across **content understanding and generation, augmented reality and AI assistants, robotics, and autonomous driving**. An overview of the key research areas is provided in the following: 
 
-# Neural Mesh Models for Object Representation
+## Neural Mesh Models for Object Representation
 
-... 
+## Multi-Object Tracking 
 
-# Multi-Object Tracking 
+## Vision-Language Models 
 
-# Vision-Language Models 
-
-# 3D Reconstruction
+## 3D Reconstruction
