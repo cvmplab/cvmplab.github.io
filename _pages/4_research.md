@@ -11,7 +11,9 @@ We develop foundational principles for the next generation of AI systems that ca
 
 To achieve this, we bring together **3D computer vision**, **machine learning**, **natural language processing**, and **robotics**, with a particular focus on structured world representations derived from dynamic visual observations. Rather than relying solely on large-scale correlations between images and text, we investigate **explicit, lightweight abstractions of physical scenes** that enable robust generalization, reasoning, and interaction with the real world.
 
-The lab is headed by [**Prof. Dr. Eddy Ilg**](/eddy-ilg/), known for seminal contributions to computer vision—most notably in optical flow—and for prior work on AR technology at Meta. The lab’s research is supported by an **ERC Starting Grant**—one of Europe’s most competitive research funding programs—for the project **“4DLang: Establishing a Spatio-Temporal Language for Scene Representation,”** which introduces a new paradigm for grounding language in structured, geometric, and temporal representations of the world.
+The lab is headed by [**Prof. Dr. Eddy Ilg**](/eddy-ilg/), known for seminal contributions to computer vision—most notably in optical flow—and for prior work on AR technology at Meta. The lab’s research is supported by an **ERC Starting Grant**—one of Europe’s most competitive research funding programs—for the project **“4DLang: Establishing a Spatio-Temporal Language for Scene Representation,”** which introduces a new paradigm for grounding language in structured, geometric, and temporal representations of the world. An overview is shown in the following: 
+
+![4DLang](assets/img/4DLang.png)
 
 Our research aims to advance core AI capabilities with impact across **content understanding and generation, augmented reality and AI assistants, robotics, and autonomous driving**. An overview of the key research areas is provided in the following: 
 
