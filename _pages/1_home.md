@@ -25,7 +25,14 @@ The **Computer Vision and Machine Perception (CVMP) Lab** at the University of T
 
 To achieve this, we bring together **3D computer vision**, **machine learning**, **natural language processing**, and **robotics**, with a particular focus on structured world representations derived from dynamic visual observations. Rather than relying solely on large-scale correlations between images and text, we investigate **explicit, lightweight abstractions of physical scenes** that enable robust generalization, reasoning, and interaction with the real world.
 
-The lab is headed by **Prof. Dr. Eddy Ilg**, known for seminal contributions to computer vision—most notably in optical flow—and for prior work on large-scale AR and world-modeling systems at Meta. The lab’s research is supported by a highly distinguished **ERC Starting Grant** for the project **“4DLang: Establishing a Spatio-Temporal Language for Scene Representation,”** which introduces a new paradigm for grounding language in structured, geometric, and temporal representations of the world.
+The lab is headed by **Prof. Dr. Eddy Ilg**, known for seminal contributions to computer vision—most notably in optical flow—and for prior work on AR technlogy at Meta. The lab’s research is supported by an **ERC Starting Grant**--one of Europe’s most competitive research funding programs--for the project **“4DLang: Establishing a Spatio-Temporal Language for Scene Representation,”** which introduces a new paradigm for grounding language in structured, geometric, and temporal representations of the world.
 
 Our research aims to advance core AI capabilities with impact across **AI assistants, robotics, autonomous systems, and content understanding and generation**.
+
+
+
+
+
+
+
 
