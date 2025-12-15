@@ -13,4 +13,14 @@ To achieve this, we bring together **3D computer vision**, **machine learning**,
 
 The lab is headed by [**Prof. Dr. Eddy Ilg**](/eddy-ilg/), known for seminal contributions to computer vision—most notably in optical flow—and for prior work on AR technology at Meta. The lab’s research is supported by an **ERC Starting Grant**—one of Europe’s most competitive research funding programs—for the project **“4DLang: Establishing a Spatio-Temporal Language for Scene Representation,”** which introduces a new paradigm for grounding language in structured, geometric, and temporal representations of the world.
 
-Our research aims to advance core AI capabilities with impact across **content understanding and generation, augmented reality and AI assistants, robotics, and autonomous driving**.
+Our research aims to advance core AI capabilities with impact across **content understanding and generation, augmented reality and AI assistants, robotics, and autonomous driving**. An overview of the key research areas is provided in the following: 
+
+# Neural Mesh Models for Object Representation
+
+... 
+
+# Multi-Object Tracking 
+
+# Vision-Language Models 
+
+# 3D Reconstruction
