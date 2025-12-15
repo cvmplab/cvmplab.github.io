@@ -60,6 +60,9 @@ ninja.data = [{
           section: "News",},{id: "open_positions-we-are-looking-for-a-postdoctoral-researcher-who-wants-to-build-the-next-generation-of-geometric-reasoning-and-language-grounded-3d-perception-systems-what-you-ll-do-lead-research-on-3d-reconstruction-scene-understanding-or-vision-language-models-for-embodied-agents-collaborate-with-graduate-students-on-experiments-and-publications-help-shape-datasets-and-benchmarks-that-stress-test-geometric-priors-and-multimodal-reasoning-what-you-bring-phd-in-computer-vision-robotics-machine-learning-or-a-related-area-strong-publication-record-in-3d-cv-or-vlms-e-g-neurips-cvpr-iccv-icra-proficiency-with-pytorch-jax-and-modern-3d-vision-toolchains-how-to-apply-email-your-cv-and-a-short-research-statement-to-the-email-address-below",
           title: 'We are looking for a postdoctoral researcher who wants to build the next...',
           description: "",
+          section: "Open_positions",},{id: "open_positions-we-are-looking-for-ambitious-phd-students-who-want-to-build-the-next-generation-of-geometric-reasoning-and-language-grounded-3d-perception-systems-what-you-ll-do-research-on-3d-reconstruction-scene-understanding-or-vision-language-models-for-embodied-agents-what-you-bring-strong-master-s-degree-in-computer-vision-robotics-machine-learning-or-a-related-area-strong-publication-record-in-3d-cv-or-vlms-e-g-neurips-cvpr-iccv-icra-proficiency-with-pytorch-jax-and-modern-3d-vision-toolchains-how-to-apply-email-your-cv-and-a-short-research-statement-to-the-email-address-below",
+          title: 'We are looking for ambitious PhD students who want to build the next...',
+          description: "",
           section: "Open_positions",},{
         id: 'social-github',
         title: 'GitHub',
