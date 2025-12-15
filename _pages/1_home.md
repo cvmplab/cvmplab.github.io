@@ -21,7 +21,7 @@ people:
   enabled: true
   alumni: false
 ---
-The **Computer Vision and Machine Perception (CVMP) Lab** at the University of Technology Nuremberg develops foundational principles for the next generation of AI systems that can understand the world **spatio-temporally and semantically**. Our goal is to move beyond purely statistical pattern recognition toward models that reason about **geometry, motion, and meaning** in a unified way.
+The **Computer Vision and Machine Perception (CVMP) Lab** at the University of Technology Nuremberg develops foundational principles for the next generation of AI systems that can understand the world **spatio-temporally and semantically**. Our goal is to move beyond purely statistical pattern recognition toward models that reason about **geometry, motion, and meaning** in a unified way. 
 
 To achieve this, we bring together **3D computer vision**, **machine learning**, **natural language processing**, and **robotics**, with a particular focus on structured world representations derived from dynamic visual observations. Rather than relying solely on large-scale correlations between images and text, we investigate **explicit, lightweight abstractions of physical scenes** that enable robust generalization, reasoning, and interaction with the real world.
 
