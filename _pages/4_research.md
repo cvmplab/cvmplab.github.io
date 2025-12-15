@@ -15,7 +15,7 @@ The lab is headed by [**Prof. Dr. Eddy Ilg**](/eddy-ilg/), known for seminal con
 
 ![4DLang](/assets/img/4DLang.png)
 
-While unsupervised learning in computer vision alone provides only limited semantic abstraction, language, on the other hand, provides high-level semantic abstraction but lacks spatio-temporal reasoning. The goal of 4D lang is to unite both modalities into a new language that consists of 3D primitives with attached neural features (indicated by color) representing geometry, materials and physical properties, semantics, behaviour, and possible interactions. Overall, our research aims to advance core AI capabilities with impact across **content understanding and generation, augmented reality and AI assistants, robotics, and autonomous driving**. An overview of the key research areas is provided in the following: 
+While unsupervised learning in computer vision alone provides only limited semantic abstraction, language, on the other hand, provides high-level semantic abstraction, but lacks spatio-temporal reasoning. The goal of 4DLang is to unite both modalities into a new language that consists of 3D primitives with attached neural features (indicated by color) representing geometry, materials and physical properties, semantics, behaviour, and possible interactions. Overall, our research aims to advance core AI capabilities with impact across **content understanding and generation, augmented reality and AI assistants, robotics, and autonomous driving**. An overview of the key research areas is provided in the following: 
 
 ## 3D Reconstruction
 
