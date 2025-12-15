@@ -25,7 +25,7 @@ ninja.data = [{
           },
         },{id: "nav-research",
           title: "Research",
-          description: "Areas of Research that the CVMP Lab is currently working on.",
+          description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/research/";
