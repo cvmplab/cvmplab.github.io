@@ -21,6 +21,11 @@ people:
   enabled: true
   alumni: false
 ---
+The **Computer Vision and Machine Perception (CVMP) Lab** at the University of Technology Nuremberg develops foundational principles for the next generation of AI systems that can understand the world **spatio-temporally and semantically**. Our goal is to move beyond purely statistical pattern recognition toward models that reason about **geometry, motion, and meaning** in a unified way.
 
+To achieve this, we bring together **3D computer vision**, **machine learning**, **natural language processing**, and **robotics**, with a particular focus on structured world representations derived from dynamic visual observations. Rather than relying solely on large-scale correlations between images and text, we investigate **explicit, lightweight abstractions of physical scenes** that enable robust generalization, reasoning, and interaction with the real world.
 
-The **Computer Vision and Machine Perception Lab** at the University of Technology in Nuremberg focuses on 3D computer vision and lifelong learning. The emphasis lies on building machine perception algorithms that are not rigid but able to adapt to their environment and evolve. The lab connects to surrounding interdisciplinary fields, such as fundamentals, reinforcement learning, natural language processing, and privacy. The lab is headed by Prof. Dr. Eddy Ilg, who is known for his contributions to computer vision on optical flow and his work on AR technology at Meta.
+The lab is headed by **Prof. Dr. Eddy Ilg**, known for seminal contributions to computer vision—most notably in optical flow—and for prior work on large-scale AR and world-modeling systems at Meta. The lab’s research is supported by a highly distinguished **ERC Starting Grant** for the project **“4DLang: Establishing a Spatio-Temporal Language for Scene Representation,”** which introduces a new paradigm for grounding language in structured, geometric, and temporal representations of the world.
+
+Our research aims to advance core AI capabilities with impact across **AI assistants, robotics, autonomous systems, and content understanding and generation**.
+
