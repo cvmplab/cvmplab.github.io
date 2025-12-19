@@ -1,0 +1,72 @@
+{% assign social_images = site.static_files
+  | where_exp: "file", "file.path contains '/assets/img/social/' and file.extname != '.webp'"
+  | sort: "path"
+%}
+
+<style>
+  .social-events-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1.25rem;
+    margin: 2rem 0;
+  }
+
+  .social-events-card {
+    background: var(--global-card-bg-color);
+    border: 1px solid var(--global-divider-color);
+    border-radius: 14px;
+    padding: 0.75rem;
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.06);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+
+  .social-events-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 26px rgba(0, 0, 0, 0.08);
+  }
+
+  .social-events-card img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 10px;
+    display: block;
+  }
+
+  .social-events-card figcaption {
+    margin-top: 0.65rem;
+    font-size: 0.95rem;
+    color: var(--global-text-color);
+    text-align: center;
+  }
+
+  @media (max-width: 480px) {
+    .social-events-card img {
+      height: 180px;
+    }
+  }
+</style>
+
+{% if social_images.size > 0 %}
+  <div class="social-events-grid">
+    {% for image in social_images %}
+      {% assign raw_label = image.name | split: '.' | first %}
+      {% assign pretty_label = raw_label
+        | replace: '_', ' '
+        | replace: '-', ' '
+        | replace: 'IMG', 'Photo'
+        | strip
+      %}
+      <figure class="social-events-card">
+        <img
+          src="{{ image.path | relative_url }}"
+          alt="Social event photo {{ pretty_label }}"
+          loading="lazy"
+        >
+        <figcaption>{{ pretty_label }}</figcaption>
+      </figure>
+    {% endfor %}
+  </div>
+{% else %}
+  <p>No social event photos yet. Check back soon.</p>
+{% endif %}

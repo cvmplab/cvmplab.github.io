@@ -9,11 +9,11 @@
   title: Doctoral Researcher
 - name: Tom Fischer
   image: tom-fischer.jpg
-  url: https://www.fischer-tom.github.io
+  url: https://fischer-tom.github.io/
   title: Doctoral Researcher
 - name: Jonas Kaelble
   image: jonas-kaelble.jpg
-  url: https://scholar.google.com/citations?hl=en&user=DlAEsAsAAAAJ
+  url: https://scholar.google.com/citations?user=MTG0i6cAAAAJ&hl=de
   title: Doctoral Researcher
 - name: Cameron Braunstein
   image: cameron-braunstein.jpg
@@ -21,11 +21,11 @@
   title: Doctoral Researcher
 - name: Noor Ahmed
   image: noor-ahmed.jpg
-  url: https://www.noorahmedds.github.io/
+  url: https://noorahmedds.github.io/
   title: Doctoral Researcher
 - name: Xiaojie Zhang
   image: xiaojie-zhang.jpeg
-  url: https://scholar.google.com/citations?hl=de&user=EQJz1aUAAAAJ
+  url: https://scholar.google.com/citations?user=EQJz1aUAAAAJ&hl=en&oi=sra
   title: Doctoral Researcher
 - name: Agniv Sharma
   image: agniv-sharma.jpeg
@@ -33,9 +33,9 @@
   title: Doctoral Researcher
 - name: Tim Leonard
   image: tim-leonard.jpg
-  url: https://scholar.google.com/citations?hl=de&user=dQScRJsAAAAJ
+  url: /
   title: Master-Thesis Student
 - name: Kengo Kaneda
   image: kengo-kaneda.jpg
-  url: https://scholar.google.com/citations?hl=de&user=dQScRJsAAAAJ
+  url: /
   title: HIWI Student

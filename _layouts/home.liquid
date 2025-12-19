@@ -58,6 +58,16 @@ layout: default
       {% include people.liquid %}
     {% endif %}
 
+    <!-- Job Opening -->
+    <div style="border: 1px solid #e0e0e0; padding: 20px; margin: 30px 0; border-radius: 8px;">
+      {% if page.open_positions and page.open_positions.enabled %}
+      <h2>
+        Open Positions
+      </h2>
+      {% include open_positions.liquid %}
+      {% endif %}
+    </div>
+
     <!-- Selected papers -->
     {% if page.selected_papers %}
       <h2>
